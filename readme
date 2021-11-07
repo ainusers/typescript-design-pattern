@@ -2,10 +2,12 @@
 
 1. 模板模式
 定义：一个抽象类公开定义了执行它的方法的模板。它的子类可以按需要重写方法实现，但调用将以抽象类中定义的模板进行
+注意：抽象类中定义子类执行方法模板
 优点：
   1. 封装不变部分，扩展可变部分
   2. 行为由父类控制，操作由子类实现
 uml/代码：https://www.runoob.com/design-pattern/template-pattern.html
+
 
 2. 策略模式
 定义：创建表示各种策略的对象和一个行为随着策略对象改变而改变的 context 对象
@@ -14,8 +16,28 @@ uml/代码：https://www.runoob.com/design-pattern/template-pattern.html
   2. 扩展性良好
 uml/代码：https://www.runoob.com/design-pattern/strategy-pattern.html
 
+
 3. 状态模式
 定义：创建表示各种状态的对象和一个行为随着状态对象改变而改变的 context 对象
 注意：与策略模式类似，策略模式是一件事的不同方式，状态模式是一件事的不同阶段
 优点：
-  1. 待完善
+  1. 对于同一对象，多个状态切换具有很好的可扩展性
+uml/代码：https://www.runoob.com/design-pattern/state-pattern.html
+
+
+4. 观察者模式
+定义：当对象间存在一对多关系时，一个对象被修改时，则会自动通知依赖它的对象
+注意：嫌犯通知警察信息，遍历执行警察操作
+优点：
+  1. 观察者和被观察者是抽象耦合的
+  2. 建立一套触发机制
+uml/代码：https://www.runoob.com/design-pattern/observer-pattern.html
+
+
+5. 中介者模式
+定义：提供了一个中介类，该类通常处理不同类之间的通信，并支持松耦合，使代码易于维护
+注意：将行为抽离为中介，集中化管理，简化对象间的交互，提高对象复用能力
+优点：
+  1. 降低了类的复杂度，将一对多转化成了一对一
+  2. 解耦类之间的依赖关系
+uml/代码：https://www.runoob.com/design-pattern/mediator-pattern.html
