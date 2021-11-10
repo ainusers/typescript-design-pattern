@@ -41,3 +41,15 @@ uml/代码：https://www.runoob.com/design-pattern/observer-pattern.html
   1. 降低了类的复杂度，将一对多转化成了一对一
   2. 解耦类之间的依赖关系
 uml/代码：https://www.runoob.com/design-pattern/mediator-pattern.html
+
+
+6. 代理模式
+定义：创建具有现有对象的对象，以便向外界提供功能接口
+注意：在真实对象前置，提供中间类并引入真实对象作为成员变量，对外提供能力
+优点：
+  1. 高扩展
+  2. 职责清晰
+uml/代码：https://www.runoob.com/design-pattern/proxy-pattern.html
+
+
+7. 
