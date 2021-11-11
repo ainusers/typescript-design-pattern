@@ -52,4 +52,9 @@ uml/代码：https://www.runoob.com/design-pattern/mediator-pattern.html
 uml/代码：https://www.runoob.com/design-pattern/proxy-pattern.html
 
 
-7. 
+7. 享元模式
+定义：提供了减少对象数量从而改善应用所需的对象结构的方式
+注意：类似缓冲池，应用于有大量相似对象场景
+优点：
+  1. 减少对象创建，降低系统内存
+uml/代码：https://www.runoob.com/design-pattern/flyweight-pattern.html
