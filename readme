@@ -58,3 +58,8 @@ uml/代码：https://www.runoob.com/design-pattern/proxy-pattern.html
 优点：
   1. 减少对象创建，降低系统内存
 uml/代码：https://www.runoob.com/design-pattern/flyweight-pattern.html
+
+
+8. 装饰器模式
+定义：向一个现有的对象添加新的功能，同时又不改变其结构
+注意：动态地给一个对象添加一些额外的职责，以成员变量包含的形式，不是以继承子类的形式
